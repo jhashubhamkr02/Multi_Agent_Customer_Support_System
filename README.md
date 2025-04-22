@@ -52,36 +52,63 @@ The system comprises the following specialized agents:
 Each agent was assigned specific tasks to streamline query resolution:
 
 > Query Analyzer Task:
+
 Analyze the main and secondary concerns.
+
 Classify the query type and determine urgency.
+
 > Solution Researcher Task:
+
 Research and compile step-by-step solutions using all tools.
+
 > Response Coordinator Task:
+
 Draft clear and empathetic responses following Amazon’s guidelines.
+
 > Escalation Specialist Task:
+
 Manage sensitive cases with internal coordination and action plans.
 
 5. Kickoff the System
+   
 The multi-agent system was initiated with a predefined user query, where each agent worked collaboratively to deliver efficient and accurate resolutions.
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Technologies Used
-Language Model: Gemini LLM by CrewAI
-Tools:
-SerperDevTool for searching articles
-ScrapeWebsiteTool for web scraping
-FileReadTool for local knowledge base retrieval
-Languages: Python
-How to Run
-Clone this repository.
-Set up the environment and API keys for CrewAI and search tools.
-Configure the knowledge base file (knowledge_base.txt).
-Execute the agents by running the main script.
-Future Scope
-Integrate multi-language support for global customers.
-Enhance agent capabilities with additional tools.
-Deploy the system as a web service for scalability.
-Contributing
-Contributions are welcome! Please submit a pull request for any suggestions or enhancements.
 
+Language Model: Gemini LLM by CrewAI
+
+Tools:
+
+SerperDevTool for searching articles
+
+ScrapeWebsiteTool for web scraping
+
+FileReadTool for local knowledge base retrieval
+
+Languages: Python
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+How to Run
+
+Clone this repository.
+
+Set up the environment and API keys for CrewAI and search tools.
+
+Configure the knowledge base file (knowledge_base.txt).
+
+Execute the agents by running the main script.
+
+Future Scope
+
+Integrate multi-language support for global customers.
+
+Enhance agent capabilities with additional tools.
+
+Deploy the system as a web service for scalability.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Contributing
+
+Contributions are welcome! Please submit a pull request for any suggestions or enhancements.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 License
+
 This project is licensed under the MIT License.
